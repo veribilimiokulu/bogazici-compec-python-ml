@@ -1,0 +1,65 @@
+00. Python Giriş.ipynb
+	Python Nedir?
+	Platform Desteği
+	Farklı Python Sürümleri
+	Hangi Python Sürümünü Kullanıyorum?
+	Python shell Kullanımı
+	Python Girintileri (Indentations)
+	Python Yorum Satırı
+	
+01. Python Değişkenler.ipynb
+	Değişken İsimlendirme Kuralları
+	Rezerve Edilmiş kelimeler
+	Aynı değere sahip değişkenlere aynı anda değer atama
+	Değişkenlere liste içinde sırayla değer atama
+	Değişkenlere liste dışında sırayla değer atama
+	Etkileşimli Kabuğun (Interactive Shell) Hafızası
+	
+02. Tırnak Kullanımı ve Kaçış.ipynb
+	Tırnak kullanımları tek, çift ve üçlü
+	Kaçış işaretleri ve kullanım örnekleri
+	Kaçış işareti (\) ile karakter dizisi (string) bölme
+	Satır başı (\n)
+	Kaçıştan kaçmak
+	
+03. Input - Kullanıcıdan Bilgi Almak.ipynb
+	input() fonksiyonu ile kullanıcıdan girdileri almak ve değişkenlere atamak
+	Ödev: Kullanıcıdan 2 rakam alan ve toplamını ekrana yazan bir python programı yazınız.
+
+04. print formatlama.ipynb
+	karakter dizisi birleştirme
+	format() fonksiyonu kullanımı {} ile yer gösterme
+
+05. Koşullu Durumlar.ipynb
+	if else
+	if, elif,else 
+	
+05. Operators (İşleçler)
+	Aritmetik İşleçler:
+		+    toplama
+		-    çıkarma
+		*    çarpma
+		/    bölme
+		**    kuvvet
+		%    modülüs
+		// tamsayılı bölme veya taban bölme
+	Karşılaştırma İşleçleri
+	
+		==    eşittir
+		!=    eşit değildir
+		>    büyüktür
+		<    küçüktür
+		>=    büyük eşittir
+		<=    küçük eşittir
+		
+	Değer Atama İşleçleri
+		+=, -=, *=, /= 
+	Diğer İşleçler
+		in, is, id
+
+07. Döngüler (Loops)	
+	while Döngüsü
+	for Döngüsü
+		
+	
+		
