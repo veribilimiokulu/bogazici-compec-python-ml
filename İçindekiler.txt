@@ -1,3 +1,5 @@
+
+///////////////// BÖLÜM-01 PYTHON TEMEL /////////////////////////////
 00. Python Giriş.ipynb
 	Python Nedir?
 	Platform Desteği
@@ -61,5 +63,34 @@
 	while Döngüsü
 	for Döngüsü
 		
+
+
+///////////////// BÖLÜM-02 PYTHON PANDAS İLE VERİ ANALİZİ VE KEŞFİ /////////////////////////////
+
+01. Pandas ile Dosya Okuma ve Sütun İsimlendirme
+	Pandas Giriş
+	Pandas ile Veri Okuma
+	shape() ile Pandas Dataframe Şekli, Boyutu
+	describe() ile Dataframe hakkında daha detaylı bilgi
 	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 		
