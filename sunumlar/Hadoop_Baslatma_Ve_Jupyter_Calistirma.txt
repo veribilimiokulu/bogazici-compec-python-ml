@@ -1,0 +1,42 @@
+1. Notepad++ yönetici yetkisiyle açýyoruz. (sað týk run as administrator)
+
+2. C:\Windows\System32\drivers\etc\hosts  dosyasýný Notepad++ ile açýyoruz.
+en alt satýra
+
+ip-adresiniz sandbox-hdp.hortonworks.com
+
+ekliyoruz.
+
+
+3. Putty ile sandbox-hdp.hortonworks.com yazýp baðlanýyoruz.
+
+4. Kullanýcý adý ve þifre "ec2-user" ve "bilgincds_4U" kullanýyoruz.
+
+5. Baðlandýktan sonra sýrasýyla aþaðýdaki komutlarý giriyoruz:
+
+ sudo docker start sandbox-hdp
+ sudo docker start sandbox-proxy
+ sudo docker exec -it sandbox-hdp bash
+ 
+ 6. Browser adres kutusuna: sandbox-hdp.hortonworks.com:8080
+ yazýp Ambari Oturum Açma ekranýna eriþiyoruz.
+ 
+ 7. "admin" ve "Ankara06" ile Ambari'de oturum açýyoruz.
+ servislerin yeþile dönmesini bekliyoruz.
+ 
+ 8. Daha sonra Putty'e geri dönüyoruz
+	
+ ============================ JUPYTER ÇALIÞTIRMA ==================
+ su hdfs
+ cd /home/hdfs/
+ jupyter notebook --ip sandbox-hdp.hortonworks.com --port 8889                                              889
+
+ Jupyter çalýþtýktan sonra 
+ http://sandbox-hdp.hortonworks.com:8889/?token=ab4a25d849a3464267b6268e8a14975780eb23bcd1b98be1 
+ kopyalýyoruz.
+ 
+ 
+=============  JUPYTER ERÝÞÝM ==============================
+Kendi bilgisayarýmýzda browser açýyoruz.
+
+Kopyaladýðýmýz adresi yapýþtýrýyoruz. (Boþluk olmasýn dikkat!!!!)
