@@ -80,8 +80,17 @@
 
 
 
-
-
+07.Tarih_Saat_Index_parse_date
+	Dataframe okurken indeks sütunu belirlemek
+	Dataframe'i Indekse Göre Sıralama
+	Tarih (Index) Bilgisinden Yeni Nitelikler Üretmek
+	En çok satış hangi gün olmuş?
+	Gün rakamından gün isimlerini bukma ve dataframe'e ekleme
+	Ay rakamından ay isimlerini bukma ve dataframe'e ekleme
+	İptal edilen satışlar en çok hangi günde olmuş?
+	Satış ortalamalarının aylara göre dağılımı nedir?
+	Hangi müşteri en fazla sipariş iptaletmiş?
+	
 
 
 
